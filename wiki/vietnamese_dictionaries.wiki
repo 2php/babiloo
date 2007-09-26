@@ -1,5 +1,4 @@
 #labels Featured
-= Vietnamese dictionaries =
 
 == First, some screenshots ==
 [http://ivangarcia.org/babiloo/babiloo_vietnamese1.jpg http://ivangarcia.org/babiloo/babiloo_vietnamese1_small.jpg]
