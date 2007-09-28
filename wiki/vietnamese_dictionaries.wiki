@@ -18,7 +18,6 @@ Download the EXE installer from [http://babiloo.googlecode.com/files/Babiloo-ins
 
  * For Linux,MacOS
 Download from [http://babiloo.googlecode.com/files/babiloo.jar here].
-In windows execute with double click.
 In linux, !MacOs:
 {{{
 java -jar babiloo.jar
