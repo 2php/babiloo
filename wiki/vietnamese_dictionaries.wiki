@@ -13,10 +13,10 @@ sudo aptitude install sun-java6-jre
 
 ==2. Download Babiloo.jar==
 
- *For WINDOWS
+ * For WINDOWS
 Download the EXE installer from [http://babiloo.googlecode.com/files/Babiloo-installer.exe here].
 
- *For Linux,MacOS
+ * For Linux,MacOS
 Download from [http://babiloo.googlecode.com/files/babiloo.jar here].
 In windows execute with double click.
 In linux, !MacOs:
