@@ -1,5 +1,4 @@
 #labels Featured
-
 == First, some screenshots ==
 [http://ivangarcia.org/babiloo/babiloo_vietnamese1.jpg http://ivangarcia.org/babiloo/babiloo_vietnamese1_small.jpg]
 [http://ivangarcia.org/babiloo/babiloo_vietnamese2.jpg http://ivangarcia.org/babiloo/babiloo_vietnamese2_small.jpg]
@@ -9,7 +8,7 @@
 
 For Ubuntu users: 
 {{{
-sudo apt-get install sun-java6-jre
+sudo aptitude install sun-java6-jre
 }}}
 
 ==2. Download Babiloo.jar==
@@ -26,10 +25,13 @@ java -jar babiloo.jar
 || *Name* || *Nº Articles* || *Version* || *Date Updated*|| *Format* ||
 || [http://babiloo.googlecode.com/files/vi_en.zip Vietnamese -> English] || 23.446 || 2.0 || 26 Sept 07|| Sdictionary ||
 || [http://babiloo.googlecode.com/files/en_vi.zip English -> Vietnamese] || 108.851 || 2.0 || 26 Sept 07|| Sdictionary ||
-|| French -> Vietnamese ||  ||  || Cooming Soon || Sdictionary ||
-|| Vietnamese -> French ||  ||  || Cooming Soon || Sdictionary ||
-|| Germany -> Vietnamese ||  ||  || Cooming Soon || Sdictionary ||
-|| Vietnamese -> Germany ||  ||  || Cooming Soon || Sdictionary ||
+|| French -> Vietnamese || 48.000 ||  || Cooming Soon || Sdictionary ||
+|| Vietnamese -> French || 39.000 ||  || Cooming Soon || Sdictionary ||
+|| Germany -> Vietnamese || 45.000 ||  || Cooming Soon || Sdictionary ||
+|| Vietnamese -> Germany || 12.000 ||  || Cooming Soon || Sdictionary ||
+|| Russian -> Vietnamese || 40.000  ||  || Cooming Soon || Sdictionary ||
+|| Norwegian -> Germany || 20.000 ||  || Cooming Soon || Sdictionary ||
+|| Vietnamese -> Vietnamese || 30.000 ||  || Cooming Soon || Sdictionary ||
 
 ==4. Add the dictionaries into Babiloo==
 ==5. Enjoy, send us feedback, chocolate, etc==
