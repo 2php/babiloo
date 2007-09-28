@@ -32,6 +32,8 @@ java -jar babiloo.jar
 || Russian -> Vietnamese || 40.000  ||  || Cooming Soon || Sdictionary ||
 || Norwegian -> Germany || 20.000 ||  || Cooming Soon || Sdictionary ||
 || Vietnamese -> Vietnamese || 30.000 ||  || Cooming Soon || Sdictionary ||
+|| Technical VI-EN articles || 400.000 ||  || Cooming Soon || Sdictionary ||
+|| Business VI-EN articles || 150.000 ||  || Cooming Soon || Sdictionary ||
 
 ==4. Add the dictionaries into Babiloo==
 ==5. Enjoy, send us feedback, chocolate, etc==
