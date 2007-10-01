@@ -10,7 +10,7 @@ Cho người sử dụng Ubuntu:
 sudo aptitude install sun-java6-jre
 }}}
 
-==2. Download Babiloo==
+==2. Tải Babiloo==
 
  * *Cho WINDOWS*
 Tải phiên bản cài đặt của từ điển tại[http://babiloo.googlecode.com/files/Babiloo-installer.exe đây].
@@ -24,18 +24,18 @@ java -jar babiloo.jar
 
 ==3. Tải và giải nén các từ điển vào ổ đĩa đã cài đặt ==
 
-|| *Name* || *Nº Articles* || *Version* || *Date Updated*|| *Format* ||
-|| [http://babiloo.googlecode.com/files/vi_en.zip Vietnamese -> English] || 23.446 || 2.0 || 26 Sept 07|| Sdictionary ||
-|| [http://babiloo.googlecode.com/files/en_vi.zip English -> Vietnamese] || 108.851 || 2.0 || 26 Sept 07|| Sdictionary ||
-|| French -> Vietnamese || 48.000 ||  || Cooming Soon || Sdictionary ||
-|| Vietnamese -> French || 39.000 ||  || Cooming Soon || Sdictionary ||
-|| Germany -> Vietnamese || 45.000 ||  || Cooming Soon || Sdictionary ||
-|| Vietnamese -> Germany || 12.000 ||  || Cooming Soon || Sdictionary ||
-|| Russian -> Vietnamese || 40.000  ||  || Cooming Soon || Sdictionary ||
-|| Norwegian -> Germany || 20.000 ||  || Cooming Soon || Sdictionary ||
-|| Vietnamese -> Vietnamese || 30.000 ||  || Cooming Soon || Sdictionary ||
-|| Technical VI-EN articles || 400.000 ||  || Cooming Soon || Sdictionary ||
-|| Business VI-EN articles || 150.000 ||  || Cooming Soon || Sdictionary ||
+|| *Tên* || *Số lượng từ* || *Phiên bản* || *Ngày nâng cấp*|| *Định dạng* ||
+|| [http://babiloo.googlecode.com/files/vi_en.zip Việt -> Anh] || 23.446 || 2.0 || 26 Sept 07|| Sdictionary ||
+|| [http://babiloo.googlecode.com/files/en_vi.zip Anh -> Việt] || 108.851 || 2.0 || 26 Sept 07|| Sdictionary ||
+|| Pháp -> Việt || 48.000 ||  || Sắp xuất hiện || Sdictionary ||
+|| Việt -> Pháp || 39.000 ||  || Sắp xuất hiện || Sdictionary ||
+|| Đức -> Việt || 45.000 ||  || Sắp xuất hiện || Sdictionary ||
+|| Việt -> Đức || 12.000 ||  || Sắp xuất hiện || Sdictionary ||
+|| Nga -> Việt || 40.000  ||  || Sắp xuất hiện || Sdictionary ||
+|| Đan Mạch -> Germany || 20.000 ||  || Sắp xuất hiện || Sdictionary ||
+|| Việt -> Việt || 30.000 ||  || Sắp xuất hiện || Sdictionary ||
+|| Từ điển kỹ thuật Việt-Anh || 400.000 ||  || Sắp xuất hiện || Sdictionary ||
+|| Từ điển kinh doanh Việt-Anh || 150.000 ||  || Sắp xuất hiện || Sdictionary ||
 
-==4. Add the dictionaries into Babiloo==
-==5. Enjoy, send us feedback, chocolate, etc==
+==4. Thêm từ điển vào Babiloo==
+==5. Gửi góp ý và than phiền cho chúng tôi, chúng tôi sẵn sàng đón nhận ==
