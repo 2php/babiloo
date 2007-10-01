@@ -1,10 +1,16 @@
 This project aims to create or collect all the dictionaries of the endangered languages over the world. *Please help us*
 
 =List of countries=
-== Viet Nam ==
+== Southeast Asia ==
 Languages of Viet Nam:
 http://www.ethnologue.com/show_country.asp?name=VN
 
+|| Name || No. Speakers || Best Dictionary||
+|| [http://en.wikipedia.org/wiki/Hmong_language Hmong] || 4.000.000 || Send us link||
+
+== South America ==
+Languages of Peru:
+http://www.ethnologue.com/show_country.asp?name=PE
 
 || Name || No. Speakers || Best Dictionary||
-|| [http://hmong-mienstudy.net/wp/?p=21 Hmong] || 780.000 || Send us link||
+|| [http://en.wikipedia.org/wiki/Quechua Quechua] || 10.000.000 || [http://runasimipi.org/blanco.php?file=diccionarios Diccionarios]||
