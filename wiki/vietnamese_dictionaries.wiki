@@ -1,42 +1,13 @@
 #labels Featured
-== First, some screenshots ==
-[http://ivangarcia.org/babiloo/babiloo_vietnamese1.jpg http://ivangarcia.org/babiloo/babiloo_vietnamese1_small.jpg]
-[http://ivangarcia.org/babiloo/babiloo_vietnamese2.jpg http://ivangarcia.org/babiloo/babiloo_vietnamese2_small.jpg]
+== BABILOO ==
+By IVAN GARCIA, AND HIS GROUP
 
-==1. Install the Java Virtual Machine==
-*Download and install the [http://java.com/ latest version of JRE]*
+[http://www.freewebtown.com/onishidato/images/splash.jpg http://www.freewebtown.com/onishidato/images/splash.jpg]
 
-For Ubuntu users: 
-{{{
-sudo aptitude install sun-java6-jre
-}}}
+BABILOO - TỪ ĐIỂN CỦA TƯƠNG LAI
 
-==2. Download Babiloo==
+==Vietnamese / Tiếng Việt==
+[http://code.google.com/p/babiloo/wiki/Vietnamese_version Làm thế nào để cài đặt BABILOO?]
 
- * *For WINDOWS*
-Download the EXE installer from [http://babiloo.googlecode.com/files/Babiloo-installer.exe here].
-
- * *For GNU/Linux,MacOS*
-Download from [http://babiloo.googlecode.com/files/babiloo.jar here].
-In GNU/Linux, !MacOs:
-{{{
-java -jar babiloo.jar
-}}}
-
-==3. Download & Unzip the dictionaries==
-
-|| *Name* || *Nº Articles* || *Version* || *Date Updated*|| *Format* ||
-|| [http://babiloo.googlecode.com/files/vi_en.zip Vietnamese -> English] || 23.446 || 2.0 || 26 Sept 07|| Sdictionary ||
-|| [http://babiloo.googlecode.com/files/en_vi.zip English -> Vietnamese] || 108.851 || 2.0 || 26 Sept 07|| Sdictionary ||
-|| French -> Vietnamese || 48.000 ||  || Cooming Soon || Sdictionary ||
-|| Vietnamese -> French || 39.000 ||  || Cooming Soon || Sdictionary ||
-|| Germany -> Vietnamese || 45.000 ||  || Cooming Soon || Sdictionary ||
-|| Vietnamese -> Germany || 12.000 ||  || Cooming Soon || Sdictionary ||
-|| Russian -> Vietnamese || 40.000  ||  || Cooming Soon || Sdictionary ||
-|| Norwegian -> Germany || 20.000 ||  || Cooming Soon || Sdictionary ||
-|| Vietnamese -> Vietnamese || 30.000 ||  || Cooming Soon || Sdictionary ||
-|| Technical VI-EN articles || 400.000 ||  || Cooming Soon || Sdictionary ||
-|| Business VI-EN articles || 150.000 ||  || Cooming Soon || Sdictionary ||
-
-==4. Add the dictionaries into Babiloo==
-==5. Enjoy, send us feedback, chocolate, etc==
+==English / Tiếng Anh==
+[http://code.google.com/p/babiloo/wiki/English_version How to instal BABILOO?]
