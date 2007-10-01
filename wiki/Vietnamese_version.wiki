@@ -1,7 +1,3 @@
-== Một vài hình ảnh minh họa ==
-[http://ivangarcia.org/babiloo/babiloo_vietnamese1.jpg http://ivangarcia.org/babiloo/babiloo_vietnamese1_small.jpg]
-[http://ivangarcia.org/babiloo/babiloo_vietnamese2.jpg http://ivangarcia.org/babiloo/babiloo_vietnamese2_small.jpg]
-
 ==1. Cài đặt phiên bản Java cho máy==
 *Tải và cài đặt phiên bản mới nhất của Java [http://java.com/ latest version of JRE]*
 
