@@ -1,0 +1,12 @@
+== BABILOO ==
+By IVAN GARCIA, AND HIS GROUP
+
+[http://www.freewebtown.com/onishidato/images/splash.jpg http://www.freewebtown.com/onishidato/images/splash.jpg]
+
+BABILOO - TỪ ĐIỂN CỦA TƯƠNG LAI
+
+==Vietnamese / Tiếng Việt==
+[http://code.google.com/p/babiloo/wiki/Vietnamese_version Làm thế nào để cài đặt BABILOO?]
+
+==English / Tiếng Anh==
+[http://code.google.com/p/babiloo/wiki/English_version How to instal BABILOO?]
