@@ -1,5 +1,4 @@
-
-== This project aims to create or collect all the dictionaries of the endangered languages over the world. Please help us ==
+This project aims to create or collect all the dictionaries of the endangered languages over the world. *Please help us*
 
 =List of countries=
 == Viet Nam ==
@@ -9,4 +8,3 @@ http://www.ethnologue.com/show_country.asp?name=VN
 
 || Name || No. Speakers || Best Dictionary||
 || [http://hmong-mienstudy.net/wp/?p=21 Hmong] || 700.000 || Send us link||
-
