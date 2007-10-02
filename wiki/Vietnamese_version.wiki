@@ -9,7 +9,7 @@ sudo aptitude install sun-java6-jre
 ==2. Tải Babiloo==
 
  * *Cho WINDOWS*
-Tải phiên bản cài đặt của từ điển tại[http://babiloo.googlecode.com/files/Babiloo-installer.exe đây].
+Tải phiên bản cài đặt của từ điển tại [http://babiloo.googlecode.com/files/Babiloo-installer.exe đây].
 
  * *Cho GNU/Linux,MacOS*
 Tải phiên bản cài đặt của từ điển tại [http://babiloo.googlecode.com/files/babiloo.jar đây].
