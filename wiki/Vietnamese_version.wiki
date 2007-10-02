@@ -1,6 +1,7 @@
 ==1. Cài đặt phiên bản Java cho máy==
 
 *Cho Window*
+
 Tải và cài đặt phiên bản mới nhất của Java tại [http://java.com/ đây]
 
 *Cho người sử dụng Ubuntu, và Linux:*
