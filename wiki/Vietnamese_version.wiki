@@ -23,7 +23,7 @@ java -jar babiloo.jar
 || *Tên* || *Số lượng từ* || *Phiên bản* || *Ngày nâng cấp*|| *Định dạng* ||
 || [http://babiloo.googlecode.com/files/vi_en.zip Việt -> Anh] || 23.446 || 2.0 || 26 Sept 07|| Sdictionary ||
 || [http://babiloo.googlecode.com/files/en_vi.zip Anh -> Việt] || 108.851 || 2.0 || 26 Sept 07|| Sdictionary ||
-|| Pháp -> Việt || 48.000 ||  || Sắp xuất hiện || Sdictionary ||
+|| [http://babiloo.googlecode.com/files/fra_vie.dct.zip Pháp -> Việt] || 48.000 ||  || Sắp xuất hiện || Sdictionary ||
 || [http://babiloo.googlecode.com/files/vie_fra.dct.zip Việt -> Pháp] || 39.000 ||  || Sắp xuất hiện || Sdictionary ||
 || Đức -> Việt || 45.000 ||  || Sắp xuất hiện || Sdictionary ||
 || Việt -> Đức || 12.000 ||  || Sắp xuất hiện || Sdictionary ||
