@@ -23,7 +23,7 @@ In GNU/Linux, !MacOs:
 java -jar babiloo.jar
 }}}
 
-==3. Tải và giải nén các từ điển vào ổ đĩa đã cài đặt ==
+==Bước 3. Tải và giải nén các từ điển vào ổ đĩa đã cài đặt ==
 
 || *Tên* || *Số lượng từ* || *Phiên bản* || *Ngày nâng cấp*|| *Định dạng* ||
 || [http://babiloo.googlecode.com/files/vi_en.zip Việt -> Anh] || 23.446 || 2.0 || 26 Sept 07|| Sdictionary ||
@@ -34,5 +34,5 @@ java -jar babiloo.jar
 || [http://babiloo.googlecode.com/files/eng_vie_tech.dct.zip Từ điển kỹ thuật Việt-Anh] || 50.000 || 2.0 || 4 Oct 07 || Sdictionary ||
 
 
-==4. Thêm từ điển vào Babiloo==
-==5. Gửi góp ý và than phiền cho chúng tôi, chúng tôi sẵn sàng đón nhận ==
+==Bước 4. Thêm từ điển vào Babiloo==
+==Bước 5. Gửi góp ý và than phiền cho chúng tôi, chúng tôi sẵn sàng đón nhận ==
