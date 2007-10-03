@@ -1,4 +1,4 @@
-==1. Cài đặt phiên bản Java cho máy==
+ ==1. Cài đặt phiên bản Java cho máy==
 
 *Cho Window*
 
@@ -28,8 +28,7 @@ java -jar babiloo.jar
 || [http://babiloo.googlecode.com/files/en_vi.zip Anh -> Việt] || 108.851 || 2.0 || 26 Sept 07|| Sdictionary ||
 || [http://babiloo.googlecode.com/files/fra_vie.dct.zip Pháp -> Việt] || 48.000 || 2.0 || 3 Oct 07 || Sdictionary ||
 || [http://babiloo.googlecode.com/files/vie_fra.dct.zip Việt -> Pháp] || 39.000 || 2.0 || 3 Oct 07 || Sdictionary ||
-|| Nga -> Việt || 40.000  ||  || Sắp xuất hiện || Sdictionary ||
-|| Việt -> Việt || 30.000 ||  || Sắp xuất hiện || Sdictionary ||
+|| [http://babiloo.googlecode.com/files/vie_vie.dct.zip Việt -> Việt] || 30.000 || 2.0 || 3 Oct 07 || Sdictionary ||
 || [http://babiloo.googlecode.com/files/eng_vie_tech.dct.zip Từ điển kỹ thuật Việt-Anh] || 50.000 || 2.0 || 4 Oct 07 || Sdictionary ||
 
 
