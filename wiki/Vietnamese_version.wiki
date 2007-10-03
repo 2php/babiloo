@@ -28,13 +28,10 @@ java -jar babiloo.jar
 || [http://babiloo.googlecode.com/files/en_vi.zip Anh -> Việt] || 108.851 || 2.0 || 26 Sept 07|| Sdictionary ||
 || [http://babiloo.googlecode.com/files/fra_vie.dct.zip Pháp -> Việt] || 48.000 || 2.0 || 3 Oct 07 || Sdictionary ||
 || [http://babiloo.googlecode.com/files/vie_fra.dct.zip Việt -> Pháp] || 39.000 || 2.0 || 3 Oct 07 || Sdictionary ||
-|| Đức -> Việt || 45.000 ||  || Sắp xuất hiện || Sdictionary ||
-|| Việt -> Đức || 12.000 ||  || Sắp xuất hiện || Sdictionary ||
 || Nga -> Việt || 40.000  ||  || Sắp xuất hiện || Sdictionary ||
-|| Đan Mạch -> Germany || 20.000 ||  || Sắp xuất hiện || Sdictionary ||
 || Việt -> Việt || 30.000 ||  || Sắp xuất hiện || Sdictionary ||
-|| Từ điển kỹ thuật Việt-Anh || 400.000 ||  || Sắp xuất hiện || Sdictionary ||
-|| Từ điển kinh doanh Việt-Anh || 150.000 ||  || Sắp xuất hiện || Sdictionary ||
+|| [http://babiloo.googlecode.com/files/eng_vie_tech.dct.zip Từ điển kỹ thuật Việt-Anh] || 50.000 || 2.0 || 4 Oct 07 || Sdictionary ||
+
 
 ==4. Thêm từ điển vào Babiloo==
 ==5. Gửi góp ý và than phiền cho chúng tôi, chúng tôi sẵn sàng đón nhận ==
