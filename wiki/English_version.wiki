@@ -1,5 +1,5 @@
 ==1. Install the Java Virtual Machine==
-*Download and install the [http://java.com/ latest version of JRE]*
+*Download and install the [http://java.com/en/download/windows_xpi.jsp?begindownload=true latest version of JRE]*
 
 For Ubuntu users: 
 {{{
