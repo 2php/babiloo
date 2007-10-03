@@ -4,7 +4,7 @@
 
 *Cho Window*
 
-Tải và cài đặt phiên bản mới nhất của Java tại [http://java.com/ đây]
+Tải và cài đặt phiên bản mới nhất của Java tại [http://java.com/en/download/windows_xpi.jsp?begindownload=true đây]
 
 *Cho người sử dụng Ubuntu, và Linux:*
 {{{
