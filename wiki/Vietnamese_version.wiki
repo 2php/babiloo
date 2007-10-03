@@ -4,7 +4,9 @@
 
 *Cho Window*
 
-Tải và cài đặt phiên bản mới nhất của Java tại [http://java.com/en/download/windows_xpi.jsp?begindownload=true đây]
+Tải và cài đặt phiên bản mới nhất của Java (dành cho người dùng Fire Fox) tại [http://java.com/en/download/windows_xpi.jsp?begindownload=true đây]
+
+Tải và cài đặt phiên bản mới nhất của Java (dành cho người dùng Internet Explorer) tại [http://sdlc-esd.sun.com/ESD36/JSCDL/jdk/6u3/jre-6u3-windows-i586-p-s.exe?AuthParam=1191425792_39bc5d549c8c1fa5e18a2f9d854c0610&GroupName=JSC&BHost=javadl.sun.com&FilePath=/ESD36/JSCDL/jdk/6u3/jre-6u3-windows-i586-p-s.exe&File=jre-6u3-windows-i586-p-s.exe đây]
 
 *Cho người sử dụng Ubuntu, và Linux:*
 {{{
