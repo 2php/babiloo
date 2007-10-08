@@ -1,24 +1,20 @@
-==1. Install the Java Virtual Machine==
-*Download and install the [http://java.com/en/download/windows_xpi.jsp?begindownload=true latest version of JRE]*
+==1.1 For Windows==
+Download the EXE installer from [http://babiloo.googlecode.com/files/babiloo-setup-0.7.exe here].
 
-For Ubuntu users: 
+==1.2 For GNU/Linux ==
+
+ # Install the JRE: 
 {{{
 sudo aptitude install sun-java6-jre
 }}}
 
-==2. Download Babiloo==
-
- * *For WINDOWS*
-Download the EXE installer from [http://babiloo.googlecode.com/files/Babiloo-installer.exe here].
-
- * *For GNU/Linux,MacOS*
-Download from [http://babiloo.googlecode.com/files/babiloo.jar here].
-In GNU/Linux, !MacOs:
+ # Download Babiloo 0.7 from [http://babiloo.googlecode.com/files/babiloo.jar here].
+ # Run Babiloo 0.7
 {{{
 java -jar babiloo.jar
 }}}
 
-==3. Download & Unzip the dictionaries==
+==2. Download & Unzip the dictionaries==
 
 || *Name* || *Nº Articles* || *Version* || *Date Updated*|| *Format* ||
 || [http://babiloo.googlecode.com/files/vi_en.zip Vietnamese -> English] || 23.446 || 2.0 || 26 Sept 07|| Sdictionary ||
@@ -28,5 +24,5 @@ java -jar babiloo.jar
 || [http://babiloo.googlecode.com/files/vie_vie.dct.zip Vietnamese -> Vietnamese] || 30.000 || 2.0 || 3 Oct 07 || Sdictionary ||
 || [http://babiloo.googlecode.com/files/eng_vie_tech.dct.zip Technical VI-EN articles] || 50.000 || 2.0 || 4 Oct 07 || Sdictionary ||
 
-==4. Add the dictionaries into Babiloo==
-==5. Enjoy, send us feedback, chocolate, etc==
+==3. Add the dictionaries into Babiloo==
+==4. Enjoy, send us feedback, chocolate, etc==
