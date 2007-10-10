@@ -31,6 +31,9 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 import java.util.Vector;
 
+/**
+ * Test comment
+ */
 public class HighlightList extends JList {
     private int lastHighLightedIndex = -1;
 
