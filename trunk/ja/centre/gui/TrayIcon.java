@@ -25,9 +25,7 @@ public class TrayIcon extends java.awt.TrayIcon {
 	private static final Image image = Toolkit.getDefaultToolkit().getImage("d:\\home.png"); // TODO change it
 	
 	private static final TrayIcon trayIcon = new TrayIcon(image);
-	
-	private JPopupMenu popup;
-	
+
 	private TrayIcon(Image image) {
 		super(image, "Babilooo Opensource Dictionary"); // TODO i18n
 		initComponents();
