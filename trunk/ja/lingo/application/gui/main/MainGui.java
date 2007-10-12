@@ -26,6 +26,7 @@ import ja.centre.gui.resources.Resources;
 import ja.lingo.application.model.Model;
 import ja.lingo.application.model.ModelAdapter;
 import ja.lingo.application.model.Preferences;
+import ja.lingo.application.gui.trayicon.TrayIcon;
 
 import javax.swing.*;
 import java.awt.event.WindowListener;
@@ -75,7 +76,8 @@ public class MainGui {
         frame.setContentPane( mainPanel.getGui() );
         frame.setIconImage( resources.icon( "title" ).getImage() );
         frame.setTitle( resources.text( "title" ) );
-
+        TrayIcon trayicon = new TrayIcon(resources.icon( "trayicon" ).getImage());
+        trayicon.setVisible(true);
         ActionBinder.bind( this );
     }
 
