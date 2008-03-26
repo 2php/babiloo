@@ -115,7 +115,7 @@ public class Splash {
     }
 
     public static void main( String[] args ) {
-        JaLingoLookAndFeel.install( 14 );
+        JaLingoLookAndFeel.install( 14 , "SansSerif");
 
         SwingUtilities.invokeLater( new Runnable() {
             public void run() {

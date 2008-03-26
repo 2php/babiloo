@@ -32,14 +32,14 @@ import java.awt.*;
 public class JaLingoLookAndFeel extends KunststoffLookAndFeel {
     private static final Log LOG = LogFactory.getLog( JaLingoLookAndFeel.class );
 
-    public static void install( int fontSize ) {
+    public static void install( int fontSize , String fontFace) {
         // children dynamic re-layout on resize
         Toolkit.getDefaultToolkit().setDynamicLayout( true );
 
         // kunstoff
 
         JaLingoLookAndFeel laf = new JaLingoLookAndFeel();
-        setCurrentTheme( new RainyTheme( fontSize ) );
+        setCurrentTheme( new RainyTheme( fontSize , fontFace) );
         setCurrentGradientTheme( new RainyGradientTheme() );
 
         //LookAndFeel laf = new WindowsLookAndFeel();

@@ -21,6 +21,7 @@
 package ja.lingo.application.util.plaf.theme;
 
 import ja.centre.gui.util.ColorUtil;
+import ja.lingo.application.model.Preferences;
 import ja.lingo.application.util.JaLingoColors;
 
 import javax.swing.*;
@@ -48,8 +49,8 @@ public class RainyTheme extends DefaultMetalTheme {
         return "JaLingo Rainy Theme";
     }
 
-    public RainyTheme( int fontSize ) {
-        font = new FontUIResource( "Dialog", 0, fontSize );
+    public RainyTheme( int fontSize , String fontFace) {
+        font = new FontUIResource( fontFace, 0, fontSize );
         fontSmaller = new FontUIResource( font.deriveFont( (float) fontSize - 1 ) );
     }
 

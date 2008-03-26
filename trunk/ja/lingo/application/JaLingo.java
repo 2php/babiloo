@@ -67,8 +67,8 @@ public class JaLingo {
                 public void run() throws Exception {
                     // few hacks
                     Preferences prefs = Preferences.load();
-                    JaLingoLookAndFeel.install( prefs.getFontSize() );
-                    applyJEditorPaneStyleHack( prefs.getFontSize() );
+                    JaLingoLookAndFeel.install( prefs.getFontSize() , prefs.getFontFace());
+                    applyJEditorPaneStyleHack( prefs.getFontSize() , prefs.getFontFace() );
 
                     skeleton = new Skeleton( prefs );
                 }
@@ -86,10 +86,10 @@ public class JaLingo {
         }
     }
 
-    private void applyJEditorPaneStyleHack( int fontSize ) {
+    private void applyJEditorPaneStyleHack( int fontSize, String fontFace ) {
         StyleSheet ss = new StyleSheet();
         try {
-            ss.loadRules( new StringReader( new CssHelper( fontSize ).asString() ), null );
+            ss.loadRules( new StringReader( new CssHelper( fontSize, fontFace ).asString()), null );
         } catch ( IOException e ) {
             States.shouldNeverReachHere( e );
         }

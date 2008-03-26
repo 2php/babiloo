@@ -69,7 +69,7 @@ public class ProgressUtil {
     }
 
     public static void main( String[] args ) {
-        JaLingoLookAndFeel.install( 14 );
+        JaLingoLookAndFeel.install( 14 , "SansSerif");
 
         Toolkit.getDefaultToolkit().setDynamicLayout( true );
 

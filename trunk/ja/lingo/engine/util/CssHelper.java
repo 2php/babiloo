@@ -28,7 +28,13 @@ public class CssHelper {
     }
 
     public CssHelper( int fontSize ) {
+    	//TODO get font from preferences
         this( fontSize, "Dialog", "Lucida Sans Unicode" );
+    }
+
+    public CssHelper( int fontSize, String fontFace ) {
+    	//TODO get font from preferences
+        this( fontSize, fontFace, "Lucida Sans Unicode" );
     }
 
     public CssHelper( int fontSize, String baseFont, String transcriptionFont ) {

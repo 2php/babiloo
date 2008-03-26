@@ -150,6 +150,7 @@ public class SettingsGui {
         dialog.setVisible( false );
 
         preferences.setFontSize( appearanceGui.getFontSize() );
+        preferences.setFontFace( appearanceGui.getFontFace() );
         preferences.setDropZoneVisible( appearanceGui.isDropZoneVisible());
         preferences.setMemoryBarVisible( appearanceGui.isMemoryBarVisible() );
 

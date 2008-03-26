@@ -33,6 +33,7 @@ public class Preferences implements Serializable {
     private int navigatorDividerLocation = 160;
 
     private int fontSize = 14;
+    private String fontFace = "SansSerif";
 
     private boolean dropZoneVisible = true;
     private Point dropZoneLocation = new Point( 300, 300 );
@@ -59,6 +60,13 @@ public class Preferences implements Serializable {
     }
     public void setFontSize( int fontSize ) {
         this.fontSize = fontSize;
+    }
+
+    public String getFontFace() {
+        return fontFace;
+    }
+    public void setFontFace( String fontFace ) {
+        this.fontFace = fontFace;
     }
 
     public boolean isDropZoneVisible() {
