@@ -20,15 +20,23 @@
 
 package ja.lingo.application.gui.main;
 
+
 import ja.centre.gui.actionbinder.ActionBinder;
 import ja.centre.gui.actionbinder.config.NListener;
+import ja.centre.gui.actionbinder.config.NListenerGroup;
 import ja.centre.gui.resources.Resources;
 import ja.lingo.application.model.Model;
 import ja.lingo.application.model.ModelAdapter;
 import ja.lingo.application.model.Preferences;
 import ja.lingo.application.gui.trayicon.TrayIcon;
+import ja.lingo.application.gui.actions.Actions;
 
 import javax.swing.*;
+
+import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+
 import java.awt.event.WindowListener;
 
 public class MainGui {
@@ -39,8 +47,17 @@ public class MainGui {
 
     private MainPanel mainPanel;
     private Model model;
+    
+    @NListenerGroup( {
+    	@NListener( type = MouseListener.class, mappings = {
+            "mouseClicked > trayIconMouseClicked"
+    	} ),
+        @NListener( property = "showOrHideMainItem",    type = ActionListener.class, mappings = "actionPerformed > showOrHideMain" ),
+        @NListener( property = "exitItem",              type = ActionListener.class, mappings = "actionPerformed > exit" )
+    } )
+    private TrayIcon trayicon;
 
-    public MainGui( Model model, MainPanel mainPanel ) {
+    public MainGui( Model model, MainPanel mainPanel,Actions actions ) {
         this.mainPanel = mainPanel;
 
         this.model = model;
@@ -56,10 +73,11 @@ public class MainGui {
                 showAtTop();
             }
             public void main_showOrHide() {
-                if ( frame.getState() == JFrame.ICONIFIED ) {
+                if ( frame.getState() == JFrame.ICONIFIED || !frame.isVisible()) {
                     showAtTop();
                 } else {
                     frame.setState( JFrame.ICONIFIED );
+                    frame.setVisible( false );
                 }
             }
             public void settingsUpdated( Preferences preferences ) {
@@ -76,7 +94,7 @@ public class MainGui {
         frame.setContentPane( mainPanel.getGui() );
         frame.setIconImage( resources.icon( "title" ).getImage() );
         frame.setTitle( resources.text( "title" ) );
-        TrayIcon trayicon = new TrayIcon(resources.icon( "trayicon" ).getImage());
+        trayicon = new TrayIcon(resources.icon( "trayicon" ).getImage(),actions);
         trayicon.setVisible(true);
         ActionBinder.bind( this );
     }
@@ -86,14 +104,28 @@ public class MainGui {
     }
 
     public void windowClosing() {
-        frame.setVisible( false );
-
-        model.dispose();
+    	//Closing the window by clicking on the X will iconize it in the System Tray. 
+    	frame.setState( JFrame.ICONIFIED ); //This will minimize it.
+        frame.setVisible( false ); //This will Hide it.
+    }
+    
+    public void trayIconMouseClicked( MouseEvent e ) {
+        if ( SwingUtilities.isLeftMouseButton( e ) ) {
+            showOrHideMain();
+        }
     }
 
     public void showAtTop() {
-        frame.setVisible( true );
         frame.setState( JFrame.NORMAL );
+        frame.setVisible( true );
         frame.toFront();
+        frame.requestFocus();
+    }
+    
+    public void showOrHideMain() {
+        model.main_showOrHide();
+    }
+    public void exit() {
+        model.dispose();
     }
 }

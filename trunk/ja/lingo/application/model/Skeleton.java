@@ -81,7 +81,7 @@ public class Skeleton {
         HistoryGui historyGui = new HistoryGui( model, engine, history );
 
         MainPanel mainPanel = new MainPanel( actions, describerGui, navigatorGui, historyGui, searchGui );
-        MainGui mainGui = new MainGui( model, mainPanel );
+        MainGui mainGui = new MainGui( model, mainPanel,actions );
 
         // settings
         LOG.info( "Initializing UI: settings..." );
