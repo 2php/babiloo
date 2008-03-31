@@ -64,7 +64,8 @@ public class TrayIcon extends java.awt.TrayIcon {
                    showJPopupMenu(e);
                }
                public void mouseReleased(MouseEvent e) {
-                   dialog.dispose();
+                   showJPopupMenu(e);
+                   //dialog.dispose();
                }
            });
        }
