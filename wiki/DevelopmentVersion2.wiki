@@ -1,0 +1,31 @@
+#summary Plan of the development of Babiloo 2.0
+
+= Introduction =
+
+Babiloo 2 is an open source free OS independent dictionary application.
+
+It's based on OpenDict + Sdiqt + QStardict open source projects.
+IRC channel at irc.freenode.net : #babiloo
+
+= Core =
+
+ * MultiLanguage support
+ * Provide event signals for the plugins
+ * Advanced search
+
+= Plugins =
+[How to create a plugin] (TODO)
+
+ * SDictionary support
+ * StarDict dictionary support
+ * Sounds recorder/player
+ * Collaborate button (able to send corrections to the dictionaries maintainers)
+
+= Interfaces =
+
+    * QT (Windows, Linux, Mac)
+    * Maemo, 
+    * Nokia Python N60 series
+    * IPhone
+    * Other phones
+
