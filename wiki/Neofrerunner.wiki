@@ -1,0 +1,42 @@
+=Intro=
+
+The objective of this module is creating a graphics user interface that emphasizes simplicity and lightness. As development focuses on keeping weight down to a minimum, only the most essential features are implemented. It should be simple to use, requires few libraries and starts up quickly.
+The main target is the openmoko Freerunner cellphone (http://www.openmoko.org) and secondly the netbook.
+If you need a full-features program, you have to use the QT interface.
+
+=Installation=
+==Neo frerunner==
+
+Download from the Web a dictionary. For example:
+
+http://sourceforge.net/projects/stardict/files/stardict-dictionaries-dictd
+http://sdict.com/ 
+    
+Unzip the dictionary where you want (e.g. bunzip2 stardict-longman-2.4.2.tar.bz2 then tar xvf stardict-longman-2.4.2.tar) Pay attention for the Stardict dictionary you need all the files.
+    
+Optionally, download and unzip a sound dictionary (e.g. from http://sourceforge.net/projects/stardict/files/ the WyabdcRealPeopleTTS section)
+
+opkg install http://www.opkg.org/packages/0_babiloo_2.0.9-2_all.ipk 
+
+==Linux==
+===Ubuntu 9.04===
+
+Configure the opengeu repository:
+
+http://opengeuwiki-en.intilinux.com/index.php?title=How_to_install_Opengeu_9.04_Alpha_from_packages
+
+Install babiloo (it requires python-efl-elementary)
+Launch babiloo -e (e switch launches the EFL interface, QT is the standard interface for desktop) 
+
+===Elive===
+(http://www.elivecd.org/)
+
+Install babiloo
+Launch babiloo -e (e switch launches the EFL interface, QT is the standard interface for desktop) 
+
+===OzOS===
+
+Install python-elementary from SVN
+svn co http://svn.enlightenment.org/svn/e/trunk/BINDINGS/python
+Install babiloo
+Launch babiloo -e (e switch launches the EFL interface, QT is the standard interface for desktop) 
